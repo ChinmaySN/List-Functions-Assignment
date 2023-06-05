@@ -1,0 +1,23 @@
+Q1. What is the syntax for adding an element to a list in Python? 
+       l.append()
+       l.insert()
+Q2. What is the difference between remove() and pop() functions in Python? 
+       The pop() function removes the last element or the element based on the index given 
+        remove() function removes the first occurrence of the specified element
+
+
+Q3. Write a Python code to sort a list in descending order. 
+      L1 = [453,312,54,652,4321,654,342,685,435,5,3,4,34,65,43]
+      L1.sort(reverse = True)
+      L1
+      [4321, 685, 654, 652, 453, 435, 342, 312, 65, 54, 43, 34, 5, 4, 3]
+      
+Q4. Write a Python code to count the number of occurrences of an element in a list.
+    l2 = [34,234,34,43,3,44,5,4,4,4,4,3,34,4,534,34,5,45,4,455,4,454,4,5,55,45,5,5,5,5,5,]
+    l2.count(4)
+    8 
+Q5. Write a Python code to reverse a list.  
+    l3 = [1,2,3,4,5,6,7,8,9,0]
+    l3.reverse()
+    l3
+    [0, 9, 8, 7, 6, 5, 4, 3, 2, 1]
